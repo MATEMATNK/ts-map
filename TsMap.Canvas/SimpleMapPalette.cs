@@ -6,9 +6,9 @@ namespace TsMap.Canvas
     {
         public SimpleMapPalette()
         {
-            Background = new SolidBrush(Color.FromArgb(72, 78, 102));
-            Road = Brushes.White;
-            PrefabRoad = Brushes.White;
+            Background = new SolidBrush(Color.FromArgb(21, 21, 21));
+            Road = new SolidBrush(Color.FromArgb(255, 200, 76));
+            PrefabRoad = new SolidBrush(Color.FromArgb(255, 200, 76));
             PrefabLight = new SolidBrush(Color.FromArgb(236, 203, 153));
             PrefabDark = new SolidBrush(Color.FromArgb(225, 163, 56));
             PrefabGreen = new SolidBrush(Color.FromArgb(170, 203, 150)); // TODO: Check if green has a specific z-index
